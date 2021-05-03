@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="MainPage.css" rel="stylesheet" type="text/css">
+    <title>Bibo's Website</title>
+    <link rel="icon" type="image/jpg" href="https://www.nicepng.com/png/full/103-1036875_rubiks-cube-png-transparent-image-rubiks-cube-3.png" />
+</head>
+<body>
+ <header>
+    <script>
+        document.write("<h1>");
+        var day = new Date();
+        var hr = day.getHours();
+            if (hr < 12) {
+                document.write("Good Morning!");
+            }
+            if (hr == 12) {
+                document.write("Good Noon!")
+            }
+            if (hr > 12 && hr < 18) {
+                document.write("Good Afternoon!");
+            }
+            if (hr > 18) {
+                document.write("Good Evening!");
+            }
+        document.write("</h1>");
+        </script>
+    <h1 id="main">Welcome to Bibo's Website!</h1> 
+    <h2 id="firstHeaderTwo">Where we have fun with books, Rubik's Cubes, planes, and MORE!</h2>
+ </header>   
+    <p id="mainParagraphOne">Hey! Thanks for checking out this site! I'm really glad you're here! This website is full of fun stuff to do! I hope you have a fun time here.</p>
+    <img id="imageCube"src="https://www.nicepng.com/png/full/103-1036875_rubiks-cube-png-transparent-image-rubiks-cube-3.png" height="200">
+    <p>If you like this page, please consider subscribing to my Youtube channel or following my Instagram! It's completely free and helps out a ton!</p>
+    <h3 class="Links">Links below</h3>
+        <a class="Links" href="BookMainPage.html" target="_blank">Book page!</a> <br>
+        <a class="Links" href="CubeMainPage.html"target="_blank">Cubing page!</a> <br>
+        <a class="Links" href="AirplaneMainPage.html"target="_blank">Airplane page!</a> <br>
+        <a href="https://www.youtube.com/channel/UCS5vGgmuyta1OZr2BPnPXFw" target="_blank">My YouTube channel!</a> <br>
+        <a href="https://www.instagram.com/birbs.4.life/" target="_blank">My Instagram page!</a> <br>
+</body>
+</html>

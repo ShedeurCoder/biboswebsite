@@ -1,0 +1,24 @@
+#main {
+    text-align:center;
+    color:blue;
+}
+#firstHeaderTwo {
+    text-align:center;
+    color:blue;
+}
+#mainParagraphOne {
+    text-align:center;
+    color:green;
+}
+#imageCube {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Links {
+    color:darkblue;
+}
+header {
+    text-align:center;
+    color:blue;
+}
